@@ -1,0 +1,16 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Malgun Gothic", sans-serif; color: #3b2a20; line-height: 1.6; }
+nav { display: flex; gap: 20px; align-items: center; padding: 20px 5%; }
+nav .logo { font-weight: bold; font-size: 1.2rem; margin-right: auto; }
+nav a { color: #fff; text-decoration: none; }
+.hero { min-height: 70vh; background: linear-gradient(rgba(40,25,15,.6), rgba(40,25,15,.6)), #6f4e37; color: #fff; display: flex; flex-direction: column; }
+.hero-text { margin: auto; text-align: center; padding: 20px; }
+.hero h1 { font-size: 2.6rem; margin-bottom: 12px; }
+.btn { display: inline-block; margin-top: 24px; padding: 12px 28px; background: #f5d9b0; color: #3b2a20; border-radius: 30px; text-decoration: none; font-weight: bold; }
+section { padding: 70px 5%; text-align: center; }
+section.alt { background: #faf3ea; }
+h2 { margin-bottom: 30px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; max-width: 900px; margin: auto; }
+.card { background: #fff; border-radius: 14px; padding: 28px; box-shadow: 0 4px 14px rgba(0,0,0,.1); }
+.card span { font-size: 2.4rem; }
+footer { background: #3b2a20; color: #f5d9b0; text-align: center; padding: 20px; }
